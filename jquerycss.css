@@ -1,0 +1,90 @@
+/* HUB */
+body {
+    font-family: monospace;
+    background-color: rgb(175, 105, 105);
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-size: 90%;
+    ;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.Frame {
+    background-color: black;
+    text-align: center;
+    width: 960px;
+    margin: 20px auto;
+}
+
+.main{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main li{
+    position: relative;
+}
+
+.main a{
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.main a:hover{
+    background: purple;
+}
+.main > li{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -4px;
+}
+
+.main > li:first-child{
+    margin-left: 0;
+}
+
+.main > li > ul{
+    text-align: left;
+    display: none;
+    background: black;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 250px;
+    z-index: 99999;
+
+
+}
+/* Calculator site */
+.Calculator{
+    align-items: center;
+
+}
+#tables{
+    text-align: center;
+    align-items: center;
+
+}
+/* Interactive Contact Forms */
+.input{
+    width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+/* Image Zooming */
